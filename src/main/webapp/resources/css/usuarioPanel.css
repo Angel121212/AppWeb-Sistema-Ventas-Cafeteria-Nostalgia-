@@ -1,0 +1,64 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f8f4ef;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #00000025;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .perfil {
+            background: #faf7f3;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+
+        .perfil-info span {
+            font-weight: bold;
+        }
+
+        .campo {
+            margin-bottom: 15px;
+        }
+
+        .campo input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+        }
+
+        .btn-guardar {
+            width: 100%;
+            padding: 12px;
+            font-size: 17px;
+            background: #4c3402;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-guardar:hover {
+            background: #269a9a;
+        }
+
+        .cerrar {
+            position: fixed;
+            top: 15px;
+            right: 20px;
+            font-size: 24px;
+        }

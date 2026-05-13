@@ -1,0 +1,62 @@
+    /* SECCIÓN TÉRMINOS */
+.terminos {
+    padding: 60px 20px;
+    text-align: center;
+    background: #faf9f7;
+    height: 90vh;
+    max-height: 900px;
+}
+
+.contenedor-terminos {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titulo-terminos {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #5a4634;
+}
+
+.descripcion-terminos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.bloques-descarga {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bloque-descarga {
+    display: inline-block;
+    padding: 18px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.bloque-descarga span {
+    font-size: 1rem;
+}
+
+.bloque-descarga.docs {
+    background: #2a73d9;
+}
+
+.bloque-descarga.pdf {
+    background: #d93025;
+}
+
+.bloque-descarga:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}

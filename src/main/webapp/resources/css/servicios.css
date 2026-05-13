@@ -1,0 +1,111 @@
+
+/* --- ESTILOS DE SERVICIOS --- */
+
+.servicios {
+    padding: 60px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.servicios h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #4b2c20;
+}
+
+.intro-servicios {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Rejilla de servicios */
+.rejilla-servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.item-servicio {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.item-servicio:hover {
+    transform: translateY(-5px);
+}
+
+.item-servicio img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.item-servicio h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.item-servicio p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Video informativo */
+.video-servicios {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.video-servicios h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4b2c20;
+    font-family: 'Playfair Display', serif;
+}
+
+.video-servicios p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    line-height: 1.6;
+}
+
+.contenedor-video {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.video-box {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.video-box iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}

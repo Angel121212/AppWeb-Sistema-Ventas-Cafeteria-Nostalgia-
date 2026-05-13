@@ -1,0 +1,208 @@
+body {
+    background-color: #f8f4ef !important;
+}
+
+/* TARJETA PRINCIPAL */
+.contenido-principal {
+    padding: 20px;
+    min-height: auto;
+    padding-bottom: 120px; /* evitar que el footer se superponga */
+    background-color: #f8f4ef !important;
+}
+
+/* CENTRO */
+.contenido-centro {
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* CARRUSEL */
+.carrusel img {
+    width: 100vw;
+    height: 300px;
+    display: block;
+    margin: 0 auto 20px auto;
+    object-fit: cover;
+}
+
+/* FORMULARIO */
+.formulario-contacto {
+    background-color: #24333a;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto 60px auto;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.formulario-contacto h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contacto button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ============================ */
+/* Variables / Reset */
+/* ============================ */
+:root {
+    --bg: #000;
+    --panel: #0e1313;
+    --principal: #24333a;
+    --secundario: #aeb6b7;
+    --acento: #dbc7a6;
+    --blanco: #f7f6f5;
+    --radio: 12px;
+    --maxw: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--blanco);
+    font-family: "Poppins", system-ui, Arial;
+}
+
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+
+/* ============================ */
+.hero {
+    background: #030303;
+    padding: 54px 22px 28px;
+}
+
+.hero .contenedor {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+/* ============================ */
+/* EXPERIENCIA */
+/* ============================ */
+.experiencia {
+    display: flex;
+    max-width: 2000px;
+    margin: 44px auto 80px auto; /* separarlo del footer */
+    align-items: stretch;
+}
+
+.experiencia .izq {
+    background: var(--principal);
+    padding: 48px;
+    width: 30%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiencia .der img {
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    object-fit: cover;
+}
+
+/* ============================ */
+/* PRODUCTOS */
+/* ============================ */
+.productos {
+    background: #000;
+    padding: 56px 22px;
+    text-align: center;
+    margin-bottom: 100px; /* evita choque con footer */
+}
+
+.rejilla-productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.tarjeta-producto {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.tarjeta-producto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ============================ */
+/* SERVICIOS */
+/* ============================ */
+.servicios {
+    color: var(--blanco);
+    padding: 80px 22px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(2,11,13,.95), rgba(13,24,27,.95));
+    margin-bottom: 120px; /* separación del footer */
+}
+
+/* ============================ */
+/* SOBRE NOSOTROS */
+/* ============================ */
+.sobre {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;  /* antes tenía height fija */
+    margin-bottom: 120px;
+}
+
+.sobre .interior {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+}
+
+/* ============================ */
+/* VIDEO, HISTORIA, VALORES, EQUIPO */
+/* ============================ */
+.video-servicios,
+.historia,
+.valores,
+.equipo {
+    margin-bottom: 120px; /* evita choque con footer */
+}
