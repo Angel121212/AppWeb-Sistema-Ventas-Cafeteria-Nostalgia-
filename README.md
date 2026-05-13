@@ -2,13 +2,13 @@
 
 Sistema de información web diseñado para la automatización de procesos comerciales en establecimientos gastronómicos. La plataforma permite la administración centralizada de inventarios, el procesamiento de transacciones en tiempo real y la generación de comprobantes de pago electrónicos.
 
-## 🏗️ Arquitectura del Sistema
+## Arquitectura del Sistema
 
 La aplicación está construida bajo el patrón de arquitectura **Model-View-Controller (MVC)**, lo que permite una separación clara entre la lógica de negocio, el manejo de datos y la interfaz de usuario, facilitando la escalabilidad y el mantenimiento.
 
 ---
 
-## 📱 Interfaces y Módulos del Sistema
+## Interfaces y Módulos del Sistema
 
 ### 1. Experiencia del Cliente y Catálogo
 Módulos orientados al usuario final para la interacción con la marca y exploración de productos.
